@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinu 3D - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #e0e0e0;
+            background: #1e1e1e;
+        }
+        header {
+            background: #ff6f00;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #ff6f00;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        h1, h2 {
+            color: #ff6f00;
+        }
+        .project-card {
+            background: #2b2b2b;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        .project-card h3 {
+            margin-top: 0;
+        }
+        .project-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+        .project-description, .project-images {
+            flex: 1;
+        }
+        .project-description {
+            max-width: 100%;
+            padding: 1rem;
+            background: #333;
+            border-radius: 8px;
+        }
+        .project-images {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+        .project-images img {
+            width: 100%;
+            border-radius: 8px;
+            background: #444;
+            display: block;
+        }
+        .project-content img {
+            margin-bottom: 1rem;
+        }
+        .contact-info, .resume {
+            background: #2b2b2b;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+        .contact-info a, .resume a {
+            color: #ff6f00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kinu 3D</h1>
+        <p>Your Professional 3D Artist & Designer</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
+    </nav>
+    
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my personal webpage! Here you'll find information about my projects, background, and how to get in touch with me.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <div class="project-content">
+                <div class="project-description">
+                    <p>Description of Project 1. A brief overview of what it is and what was involved. This paragraph provides context and details about the project.</p>
+                </div>
+                <div class="project-images">
+                    <img src="https://via.placeholder.com/300x300" alt="Placeholder Image 1">
+                    <img src="https://via.placeholder.com/300x300" alt="Placeholder Image 2">
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="project-images">
+                    <img src="https://via.placeholder.com/300x300" alt="Placeholder Image 3">
+                    <img src="https://via.placeholder.com/300x300" alt="Placeholder Image 4">
+                </div>
+                <div class="project-description">
+                    <p>Additional details about Project 1. This paragraph can include more information or insights about the project and its outcomes.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <div class="project-content">
+                <div class="project-description">
+                    <p>Description of Project 2. A brief overview of what it is and what was involved. This paragraph provides context and details about the project.</p>
+                </div>
+                <div class="project-images">
+                    <img src="https://via.placeholder.com/300x300" alt="Placeholder Image 1">
+                    <img src="https://via.placeholder.com/300x300" alt="Placeholder Image 2">
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="project-images">
+                    <img src="https://via.placeholder.com/300x300" alt="Placeholder Image 3">
+                    <img src="https://via.placeholder.com/300x300" alt="Placeholder Image 4">
+                </div>
+                <div class="project-description">
+                    <p>Additional details about Project 2. This paragraph can include more information or insights about the project and its outcomes.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Kinu 3D, a 3D artist and designer specializing in creating visually striking and immersive experiences. My work is influenced by cyberpunk aesthetics and my passion for innovative design.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email: kinu3d@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/kinu3d">linkedin.com/in/kinu3d</a></p>
+            <!-- Add more contact methods if needed -->
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="resume">
+            <p>Download my <a href="resume.pdf">resume</a>.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Kinu 3D. All rights reserved.</p>
+    </footer>
+</body>
+</html>
